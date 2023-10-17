@@ -1,0 +1,65 @@
+.images{
+  width: 100%;
+  height: 900px;
+  background-position: center;
+  background-size: cover;
+  background-image: url(images/IP.jpeg);
+  background-attachment: fixed;
+
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+
+
+}
+body{
+  height: 100vh;
+  background-color: antiquewhite;
+   
+}
+.navigation{
+  background-color: #71a2d5;
+  
+}
+.logo{
+  width: 150px;
+  border-radius: 10px;
+}
+.mages{
+  border-radius: 5px;
+}
+h1{
+  font-size: 60px;
+}
+.navigations a:hover::after{
+  transform: scaleX(1);
+} 
+.lesbuttons{
+  border: none;
+  background-color: rgb(11, 228, 235);
+  border-radius: 7px;
+  color: white;
+}
+/* .card{
+  border: none;
+} */
+
+
+ /* ====================================== footer ================================== */
+ .foooter{
+  background-color: #363636;
+ }
+ .lure{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+ }
+ .card-body{
+  background-color: #71a2d5;
+ }
+
+ 
